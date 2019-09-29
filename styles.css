@@ -7,6 +7,11 @@ img {
     width: 25%;
 }
 
+#headingImage {
+    max-width: 100%;
+    height: auto;
+}
+
 h1, h3 {
     text-align: center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
