@@ -7,13 +7,52 @@ img {
     width: 25%;
 }
 
-#headingImage {
+#headingPic {
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-h1, h3 {
+.heading {
+    position: relative;
     text-align: center;
+}
+
+.headingText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    color: white;
+    margin: 0px;
+    padding: 0;
+    position: absolute;
+    left: 4px;
+    bottom: 9px;
+}
+
+li {
+    display: float;
+    float: left;
+    
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #638898af;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-decoration-line: none;
+    color: #092b28;
+}
+
+a:hover {
+    background-color: #092b28af;
+    color: #638898;
+}
