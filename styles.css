@@ -29,8 +29,17 @@ header {
 }
 
 img {
-    height: 24%;
-    width: 24%;
+    height: 25%;
+    width: 25%;
+}
+
+.placeHeading {
+    padding: 5px;
+    margin-bottom: 3px;
+    border: solid;
+    border: #638898be;
+    border-width: 1px;
+    background-color: #638898be;
 }
 
 .imageSection {
@@ -38,9 +47,14 @@ img {
     padding: 5px;
     border-style: solid;
     border-width: 3px;
-    border-color: #446c7e;
+    border-color: #446c7ebe;
     border-radius: 6px;
-    background-image: linear-gradient(to bottom right, #5b9fbd, #70a6bd)
+    background-image: linear-gradient(to bottom right, #4f8ba5af, #70a6bdaf)
+}
+
+article {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #headingPic {
@@ -94,4 +108,8 @@ a {
 a:hover {
     background-color: #092b28af;
     color: #638898;
+}
+
+#copyright {
+    margin-left: 6px;
 }
